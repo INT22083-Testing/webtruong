@@ -1,27 +1,39 @@
-# Laravel PHP Framework
+###Thông tin môn học
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+###Bộ môn: Công nghệ phần mềm (INT 2208-3)
+####Giảng viên: Trương Anh Hoàng
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+###Thông tin về nhóm:
+- Phạm Huy Mạnh
+- Vũ Ngọc Tuấn
+- Hà Văn Sửu
+- Trần Hữu Sáng
+- Bế Thánh Gióng
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+###Thông tin về dự án:
+- Tên: Nhật kí online.
+- Mã nguồn: https://github.com/INT22083-Testing/Project_TeamTesting_Dairy
+- Trang quản lý công việc: https://www.pivotaltracker.com/n/projects/1555849
+- Trang demo: https://boiling-refuge-17111.herokuapp.com/
 
-## Official Documentation
+###Mô tả sản phẩm:
+ - Nhatkyonline là dự án thiết kế và xây dựng với mục đích tạo diễn đàn nơi mà mọi người có thể chia sẻ cảm súc, suy nghĩ, tâm tư, tình cảm của mình. Tại đây các bạn có thể chia sẻ những vướng mắc, khó khăn, những điều thầm kín nhất để được bạn đọc chia sẻ và tư vấn giúp giải quyết vấn đề, gỡ mắc mọi khó khăn trong cuộc sống.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+###Mô tả chức năng:
+Nhatkyonline là dự án thiết kế và xây dựng một diễn đàn sử dụng ROR framework với các chức năng cơ bản:
 
-## Contributing
+- Đăng nhập, đăng ký thành viên.
+- Thành viên có thể thay đổi mật khẩu, xoá tài khoản.
+- Thành viên có thể like/dislike các bài viết có trên website.
+- Thành viên có thể thêm nhật ký mới, sửa, xoá nhật ký của mình đã đăng.
+- Trong mỗi bài nhật ký, những người dùng khác có thể để lại comment, xoá comment của mình.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+###Kết quả test:
+- 5 scenarios (5 passed)
+- 43 steps (43 passed)
+- 0m2.452s
+- Coverage report generated for Cucumber Features to /home/ubuntu/workspace/demo2/coverage. 165 / 193 LOC (85.49%) covered.
 
-## Security Vulnerabilities
+Danh sách các user story và người thực hiện xem chi tiết tại trang quản lý dự án Pivotaltraker
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+####TEAM TESTING 2016
